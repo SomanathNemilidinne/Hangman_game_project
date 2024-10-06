@@ -53,6 +53,44 @@ This file is a collection of words that the game can randomly choose from. The m
 - **Lives System**: You start with 6 lives, and each wrong guess costs a life.
 - **ASCII Art**: Dynamic display of hangman stages as you guess.
 
+## ⚙️ Dependencies
+
+This project is written in Python and does not require any external libraries beyond the standard library.
+
+## 🔍 Sample Output
+
+Here's what the game looks like when you play:
+
+```
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _ | '_ \ / _ | '_  _ \ / _ | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_| 
+                    __/ |                      
+                   |___/    
+
+Word to guess: ________
+****************************<???>/6 LIVES LEFT****************************
+Guess a letter: e
+You guessed e, that's not in the word. You lose a life.
+****************************<???>/5 LIVES LEFT****************************
+Word to guess: ________
+```
+### Hangman Stages
+As you play, the hangman stages will appear like this:
+
+```
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+```
+
 ## 📝 Contribution
 
 Feel free to contribute by:
